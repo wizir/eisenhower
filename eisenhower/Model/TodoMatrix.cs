@@ -5,14 +5,6 @@ using eisenhower.Wizards;
 
 namespace eisenhower.Model
 {
-    public enum Significance
-    {
-        ImportantUrgent,
-        ImportantNonurgent,
-        UnimportantUrgent,
-        UnimportantNonurgent
-    }
-
     public class TodoMatrix
     {
         private ITodoItemWizard consoleWizard = new TodoItemWizard();
