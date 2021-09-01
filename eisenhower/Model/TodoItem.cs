@@ -1,7 +1,7 @@
 ﻿using System;
 using Newtonsoft.Json;
 
-namespace eisenhower
+namespace eisenhower.Model
 {
     public class TodoItem
     {

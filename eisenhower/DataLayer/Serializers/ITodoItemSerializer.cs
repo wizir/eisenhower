@@ -1,4 +1,6 @@
-﻿namespace eisenhower.DataLayer.Serializers
+﻿using eisenhower.Model;
+
+namespace eisenhower.DataLayer.Serializers
 {
     public interface ITodoItemSerializer
     {

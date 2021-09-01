@@ -1,4 +1,6 @@
-﻿namespace eisenhower.Wizards
+﻿using eisenhower.Model;
+
+namespace eisenhower.Wizards
 {
     public interface ITodoItemWizard
     {
