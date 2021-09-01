@@ -1,4 +1,5 @@
 ﻿using System;
+using eisenhower.Model;
 
 namespace eisenhower
 {

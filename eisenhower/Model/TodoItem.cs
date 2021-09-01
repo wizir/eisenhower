@@ -7,7 +7,7 @@ namespace eisenhower
     {
         public string Title { get; set; }
         public DateTime Deadline { get; set; }
-        public bool Done { private get; set; }
+        public bool Done {  get; private set; }
 
         public void Mark() => Done = true;
         public void UnMark() => Done = false;

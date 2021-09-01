@@ -3,7 +3,7 @@ using System.Globalization;
 
 namespace eisenhower.Wizards
 {
-    public class TodoItemConsoleWizard : ITodoItemWizard
+    public class TodoItemWizard : ITodoItemWizard
     {
         public TodoItem CreateItem()
         {
