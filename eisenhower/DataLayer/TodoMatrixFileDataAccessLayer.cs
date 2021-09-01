@@ -9,8 +9,6 @@ namespace eisenhower.DataLayer
     // "Create database layer that allows einsenhower matrix to save and load tasks from file."
     // This is stupid. It looks like the DAL should be a member of the matrix itself.
     // We are not doing it.
-    
-    
     public class TodoMatrixFileDataAccessLayer : IToDoMatrixDal
     {
         private string FilePath { get; set; } 

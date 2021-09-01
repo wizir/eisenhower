@@ -1,5 +1,4 @@
-﻿using System;
-using eisenhower.Model;
+﻿using eisenhower.DataLayer;
 
 namespace eisenhower
 {
@@ -7,14 +6,9 @@ namespace eisenhower
     {
         static void Main(string[] args)
         {
-            var quarter = new TodoQuarter();
+            var main = new EisenhowerMain(new TodoMatrixFileDataAccessLayer("./file.txt"));
             
-            quarter.AddItem();
-
-            Console.WriteLine(quarter);
+            main.Run();
         }
     }
-    
-    
-    
 }
